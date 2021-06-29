@@ -12,21 +12,34 @@
     background-color: transparent;
 }
   
-  h1, 
-  h2, 
-  h3 {
-    margin: 10px;
+.logo {
+    position: static;
+    width: 90px;
+    height: 60px;
+    margin-left: 25px;
+    object-fit: contain;
+    }
+
+.nav-barrre {
+    display: flex;
+    align-content: center;
+    justify-content: space-between;
+    margin-bottom: 25px;
+  }
+
+.nav-barre-menu {
+    display: flex;
+    justify-content: space-evenly;
+    text-decoration: none;
+    list-style: none;
   }
   
-  html {
-    background-size: cover;
-    background-color: white;
-  }
-
-  body {
-      font-family: 'Raleway Regular', sans-serif
-  }
-
-  nav-barre {
-      
+.nav-barre .link-nav {
+    display: flex;
+    justify-content: center;
+    width: 150px;
+    text-decoration: none;
+    margin: 20px 0 20px 0;
+    font-size: 18px;
+    font-family: 'Raleway Regular', sans-serif;
   }
