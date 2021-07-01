@@ -86,7 +86,7 @@ h1,
     text-decoration: none;
   }
       
-.signup-navbar {
+.signup-nav {
     font-family: 'Raleway Regular', sans-serif;  
     font-weight: bold;
     color:#0065FC;
@@ -267,7 +267,7 @@ h1 {
   margin: 0 15px 0 15px;
 }
 
-.animal {
+.animals {
   display: flex;
   background-color: white;
   border: none;
@@ -305,7 +305,7 @@ h1 {
   font-weight: 700;
 }
 
-.section-activites {
+.activité-figure {
   max-height: 450px;
   display: grid;
   flex-direction: row;
