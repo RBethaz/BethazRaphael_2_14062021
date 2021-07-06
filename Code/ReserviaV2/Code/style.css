@@ -516,23 +516,20 @@ h1 {
 
 /* ICONES STAR */
 
-.stars {
-  margin: 10px;
-}
-
-.star-icone[data-active="true"] {
+.etoiles {
   color: #0065FC;
 }
 
-.star-icone[data-active="false"] {
-  color: #ebe9e9;
+.nostar
+{
+    color: #F2F2F2;
 }
-
 /* ICONE STAR */
 
  /* FOOTER */
 
 footer {
+  
   display: flex;
   flex-direction: row;
   justify-content: center;
