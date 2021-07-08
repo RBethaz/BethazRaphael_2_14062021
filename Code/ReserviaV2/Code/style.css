@@ -28,6 +28,7 @@
       font-family: 'Raleway Regular', sans-serif
   }
   
+
  /* logo */
   
  .logo {
@@ -376,6 +377,8 @@ h1 {
   font-size: 18px;
 }
 
+
+
 /* hebergements */
 
 .hebergements {
@@ -701,9 +704,10 @@ button:hover {
 /* HOVER  footer */
 
 
+/* ---------------Code pour le format tablette--------------------------*/
 
+@media screen and (max-width: 1200px) {
 
-@media screen and (max-width: 1199px) {
 
   .filtres-section {
     display: flex;
@@ -721,7 +725,12 @@ button:hover {
     flex-direction: column;
   }
 
-.la_plus_populaires {
+  .populaire-figure {
+    width: 100%;
+    margin: 20px 300px 10px 0px
+     }
+
+  .plus-populaires {
     align-items: center;
     border: none;
     margin: 0;
@@ -760,7 +769,7 @@ button:hover {
     background-color: white;
   }
   
-  .Hebergements-image {
+  .hebergements-image {
     border-top-right-radius: 30px;
     border-top-left-radius: 30px;  
     width: 100%;
@@ -801,7 +810,7 @@ button:hover {
     margin: 20px 20px 15px 30px;
 } 
 
-  .Activites-image {
+  .activites-image {
     border-top-left-radius: 30px;
     border-top-right-radius: 30px;
     width: 100%;
@@ -1060,7 +1069,7 @@ button:hover {
     margin: 10px 0 15px 10px;
   }
     
-  .Hebergements-image {
+  .hebergements-image {
     width: 100%;
     height: 126px;
     object-fit: cover;
