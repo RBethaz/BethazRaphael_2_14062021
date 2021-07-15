@@ -1,17 +1,19 @@
 /* Police relaway */
 @font-face {
-    font-family: 'raleway';
-    src: local('Raleway Regular') url('fonts/static/Raleway-Regular.ttf') format('truetype');
-}
+  font-family: 'Raleway Regular';
+  font-style: normal;
+  font-weight: normal;
+  src: local('Raleway Regular'), url('fonts/static/Raleway-Regular.ttf') format('woff');
+  }
+ 
+  
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Raleway Regular', sans-serif;
+  }
 
-*
-{
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  font-family: 'Raleway Regular', sans-serif;
-
-}
 
   h1, 
   h2, 
@@ -25,7 +27,7 @@
   }
 
   body {
-      font-family: 'Raleway Regular', sans-serif
+      font-family: 'Raleway Thin', sans-serif
   }
   
 
@@ -35,7 +37,7 @@
   position: static;
   width: 90px;
   height: 60px;
-  margin-left: 25px;
+  margin-left: 10px;
   object-fit: contain;
 }
 
@@ -58,14 +60,14 @@
   list-style: none;
 }
 
-.nav-barre .link-nav {
+.link-nav {
   display: flex;
   justify-content: center;
   width: 150px;
   text-decoration: none;
   margin: 20px 0 20px 0;
   font-size: 18px;
-  font-family: 'Raleway Regular',
+  
 }
 
 .link-nav a {
@@ -73,9 +75,9 @@
   color:black
 }
 
-.signup-navbar a {
+.signup-nav a {
   text-decoration: none;
-  color: #0065FC;
+  color: #0066ff;
   font-weight: bold;
 }
 
@@ -472,10 +474,6 @@ h1 {
 }
 
 /* logo la plus populaire */
-
-/* la plus populaires */
-
-/* Main */
 
 /* IMAGE */
 
@@ -899,13 +897,12 @@ button:hover {
     padding-bottom: 20px;
   }
       
-  .nav-barre .link-nav {
+  .link-nav {
     display: flex;
     justify-content: center;
     width: 100%;
     text-decoration: none;
     font-size: 18px;
-    font-family: 'Raleway Regular', sans-serif;
     padding-top: 10px;
   }
       
