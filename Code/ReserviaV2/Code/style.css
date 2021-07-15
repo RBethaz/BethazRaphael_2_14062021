@@ -619,7 +619,7 @@ footer {
 /* HOVER recherche */
 
 .search-form-button:hover {
-  transform: scale(1.2);
+  transform: scale(1.1);
   color: black;
 }
 
@@ -673,7 +673,7 @@ footer {
 }
 
 button:hover {
-  transform: scale(1.2);
+  transform: scale(1.1);
   color:#0065FC;
 }
 
